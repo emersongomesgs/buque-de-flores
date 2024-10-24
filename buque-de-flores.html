@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buquê de Flores</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #fff;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #flower {
+      width: 100px;
+      height: 100px;
+      animation: bloom 4s ease-in-out forwards;
+    }
+
+    @keyframes bloom {
+      0% { transform: scale(0.1); }
+      100% { transform: scale(1); }
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 2em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Um buquê especial para você!</h1>
+
+  <img id="flower" src="buque-de-flores.png" alt="Buquê de flores">
+
+  <audio autoplay loop>
+    <source src="charlie-brown-jr.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+
+</body>
+</html>
